@@ -11,7 +11,8 @@
     "start": "parcel",
     "clean": "del-cli dist/*",
     "build:parcel": "parcel build --public-url ./",
-    "build": "npm run clean & npm run build:parcel"
+    "build": "npm run clean & npm run build:parcel",
+    "lint": "eslint \"src/**/*.js\""
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   "homepage": "https://github.com/irina-aice/template#readme",
   "devDependencies": {
     "del-cli": "^4.0.1",
+    "eslint": "^8.4.1",
     "parcel": "^2.0.1"
   },
   "dependencies": {
