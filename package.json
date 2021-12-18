@@ -12,7 +12,9 @@
     "clean": "del-cli dist/*",
     "build:parcel": "parcel build --public-url ./",
     "build": "npm run clean & npm run build:parcel",
-    "lint": "eslint \"src/**/*.js\""
+    "lint:js": "eslint \"src/**/*.js\"",
+    "lint:css": "stylelint \"src/**/*.css\"",
+    "lint": "npm run lint:js && npm run lint:css"
   },
   "repository": {
     "type": "git",
@@ -27,7 +29,9 @@
   "devDependencies": {
     "del-cli": "^4.0.1",
     "eslint": "^8.4.1",
-    "parcel": "^2.0.1"
+    "parcel": "^2.0.1",
+    "stylelint": "^14.1.0",
+    "stylelint-config-standard": "^24.0.0"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
