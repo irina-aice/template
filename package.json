@@ -21,9 +21,9 @@
   "license": "ISC",
   "devDependencies": {
     "del-cli": "^4.0.1",
-    "eslint": "^8.4.1",
-    "parcel": "^2.0.1",
-    "stylelint": "^14.1.0",
+    "eslint": "^8.6.0",
+    "parcel": "^2.1.1",
+    "stylelint": "^14.2.0",
     "stylelint-config-standard": "^24.0.0"
   },
   "dependencies": {
