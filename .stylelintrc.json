@@ -1,6 +1,7 @@
 {
   "extends": "stylelint-config-standard",
   "rules": {
-    "selector-class-pattern": "^[a-zA-Z0-9_-]+$"
+    "selector-class-pattern": "^[a-zA-Z0-9_-]+$",
+    "block-no-empty": null
   }
 }
